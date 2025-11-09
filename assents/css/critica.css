@@ -1,0 +1,142 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: #151515;
+    color: #e0e8ff;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #0066ff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #1e90ff;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: color 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    color: #a5c8ff;
+    transform: scale(1.05);
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    width: 90%;
+    max-width: 1300px;
+    margin: 60px auto;
+    background-color: #181515;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 35px rgba(1, 102, 255, 0.3);
+    min-height: 75vh;
+}
+
+main h1 {
+    text-align: center;
+    color: #69a8ff;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+}
+
+/* LINK VOLTAR */
+#voltar {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#voltar a {
+    text-decoration: none;
+    color: #a5c8ff;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: 0.3s;
+}
+
+#voltar a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* CONTEÚDO DA CRÍTICA */
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#imagens img {
+    width: 280px;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#imagens img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(100, 170, 255, 0.5);
+}
+
+.resenha {
+    flex: 1;
+    min-width: 350px;
+    color: #d9e4ff;
+    font-size: 1.1rem;
+}
+
+.resenha h2 {
+    color: #5da0ff;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.resenha p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.05rem;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #0a1124;
+    color: #aab8ff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.95rem;
+    border-top: 2px solid #1e90ff;
+    margin-top: 40px;
+}
